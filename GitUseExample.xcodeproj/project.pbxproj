@@ -12,6 +12,7 @@
 		F939C1EB219F16DD0036FEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F939C1E9219F16DD0036FEBC /* Main.storyboard */; };
 		F939C1ED219F16DD0036FEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F939C1EC219F16DD0036FEBC /* Assets.xcassets */; };
 		F939C1F0219F16DD0036FEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F939C1EE219F16DD0036FEBC /* LaunchScreen.storyboard */; };
+		F9FE14E7219F1A9300068F32 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE14E6219F1A9300068F32 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F939C1EC219F16DD0036FEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F939C1EF219F16DD0036FEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F939C1F1219F16DD0036FEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FE14E6219F1A9300068F32 /* MapForItinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F939C1E5219F16DD0036FEBC /* AppDelegate.swift */,
 				F939C1E7219F16DD0036FEBC /* ViewController.swift */,
+				F9FE14E6219F1A9300068F32 /* MapForItinerary.swift */,
 				F939C1E9219F16DD0036FEBC /* Main.storyboard */,
 				F939C1EC219F16DD0036FEBC /* Assets.xcassets */,
 				F939C1EE219F16DD0036FEBC /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				F939C1E8219F16DD0036FEBC /* ViewController.swift in Sources */,
 				F939C1E6219F16DD0036FEBC /* AppDelegate.swift in Sources */,
+				F9FE14E7219F1A9300068F32 /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				F939C1F6219F16DD0036FEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
